@@ -4,7 +4,8 @@ import { PropTypes } from "prop-types";
 
 import styles from "./FeedbackOptions.module.css";
 
-export default function FeedbackOptions  ({ handleFeedback, options })  {
+// "additional commit"
+export default function FeedbackOptions({ handleFeedback, options }) {
     return (
         <div className={styles.controlsContainer}>
             {options.map((option) => {
